@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
 export default function Navbar() {
   return (
-    <div>
-      <nav className="navbar">
+    <nav className="navbar">
+      <div className="container">
         <div className="nav-wrapper">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png"
@@ -11,15 +11,16 @@ export default function Navbar() {
             alt=""
           />
           <input type="text " className="search-box" placeholder="search " />
-          <div className="nav-items">
-            <img src="./img/home.PNG" className="icons" />
-            <img src="./img/messenger.png" className="icons" />
-            <img src="./img/add.png" className="icons" alt="" />
-            <img src="./img/explore.png" className="icons" alt="" />
-            <img src="./img/like.png" className="icons" alt="" />
+          <div className="nav-item">
+            <img src="./img/home.PNG" className="icons" alt="icon" />
+            <img src="./img/messenger.png" className="icons" alt="icon" />
+            <img src="./img/add.png" className="icons" alt="icon" />
+            <img src="./img/explore.png" className="icons" alt="icon" />
+            <img src="./img/like.png" className="icons" alt="icon" />
             <div className="icons user-profiles" />
           </div>
         </div>
-      </nav>
-    </div>
-  );}
+      </div>
+    </nav>
+  );
+}
