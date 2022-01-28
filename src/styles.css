@@ -368,10 +368,14 @@ body {
 
 /* media queries */
 
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   .flex-1,
   .flex-2 {
     flex: 1;
+  }
+  .flex-2 {
+    max-width: 640px;
+    margin: 0 auto;
   }
   .fluid {
     flex-direction: column;
