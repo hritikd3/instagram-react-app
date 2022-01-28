@@ -1,19 +1,15 @@
-import Navbar from "./components/navbar";
-import Story from "./components/story";
-import Post from "./components/post.js";
-import RightSection  from "./components/rightSection";
+import Navbar from './components/navbar';
+import Story from './components/story';
 
-import './styles.css'
-
+import './styles.css';
+import Content from './components/Content';
 
 function App() {
   return (
     <>
       <Navbar />
       <Story />
-      <Post />
-      <RightSection />
-      
+      <Content />
     </>
   );
 }
